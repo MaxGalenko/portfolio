@@ -13,7 +13,7 @@ const Contact = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once: false, amount: 0.3}}
-            className='flex-1 flex justify-start items-center'>
+            className='flex-1 justify-start items-center'>
             <div>
               <h4 className='text-[30px] uppercase text-accent font-medium mb-2 tracking-wide'>Get in touch</h4>
               <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>
@@ -22,20 +22,20 @@ const Contact = () => {
               </h2>
             </div>
           </motion.div>
-          {/* form */}
-          <motion.form
+          {/* text */}
+          <motion.div
             variants={fadeIn('left', 0.2)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once: false, amount: 0.3}}
-            className='flex-1 flex justify-start items-center'>
+            className='flex-1 justify-start items-center'>
               <div>
                 <h4 className='text-[30px] uppercase text-accent font-medium mb-2 tracking-wide'>Email:</h4>
                 <h2 className='text-[45px] leading-none mb-12'>maxymgalenko@outlook.com</h2>
                 <h4 className='text-[30px] uppercase text-accent font-medium mb-2 tracking-wide'>Phone:</h4>
-                <h2 className='text-[45px] leading-none mb-12'>Phone: (514) 294-2667</h2>
+                <h2 className='text-[45px] leading-none mb-12'>(514) 294-2667</h2>
               </div>
-          </motion.form>
+          </motion.div>
         </div>
       </div>
     </section>

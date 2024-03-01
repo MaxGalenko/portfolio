@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import { Link } from 'react-scroll';
-import Img1 from '../assets/bite-buddy.PNG';
+import Img1 from '../assets/launches-api.PNG';
 import Img2 from '../assets/my-portfolio.png';
 import Img3 from '../assets/digital-nightmare2.png';
 
@@ -31,11 +31,11 @@ const Work = () => {
                   <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt=''></img>
                   {/* pretitle */}
                   <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                    <span className='text-gradient'>Mobile App Development</span>
+                    <span className='text-gradient'>Back-End Development</span>
                   </div>
                   {/* title */}
                   <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                    <span className='text-3xl text-white'>Bite Buddy</span>
+                    <span className='text-3xl text-white'>Launches API</span>
                   </div>
               </div>
             </Link>
