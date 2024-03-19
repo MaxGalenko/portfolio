@@ -22,15 +22,15 @@ import Img18 from '../assets/smart-home.png';
 
 const DetailedWork = () => {
   return (
-    <section className='section' id='detailed-work'>
+    <section className='detail-section' id='detailed-work'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-x-10'>
           <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
             <motion.div
-              variants={fadeIn('up', 0.2)}
+              variants={fadeIn('up', 0.1)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once: false, amount: 0.3}}
+              viewport={{once: false, amount: 0.2}}
               className='relative overflow-hidden border-2 border-white/50 rounded-x1' id='pathlor-tech'>
                 {/* title */}
                 <h2 className='h2 text-accent ml-4 mt-2'>Pathlor Tech</h2>
@@ -55,10 +55,10 @@ const DetailedWork = () => {
                 </p>
             </motion.div>
             <motion.div
-              variants={fadeIn('up', 0.2)}
+              variants={fadeIn('up', 0.1)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once: false, amount: 0.3}}
+              viewport={{once: false, amount: 0.2}}
               className='relative overflow-hidden border-2 border-white/50 rounded-x1' id='stellar-parking'>
                 {/* title */}
                 <h2 className='h2 text-accent ml-4 mt-2'>Stellar Parking</h2>
@@ -77,10 +77,10 @@ const DetailedWork = () => {
                 <img className='hover:scale-105 transition-all duration-500 mt-10 mb-10 border-t-2 border-b-2 border-white/50' src={Img6} alt=''></img>
             </motion.div>
             <motion.div
-              variants={fadeIn('up', 0.2)}
+              variants={fadeIn('up', 0.1)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once: false, amount: 0.3}}
+              viewport={{once: false, amount: 0.2}}
               className='relative overflow-hidden border-2 border-white/50 rounded-x1' id='launches-api'>
                 {/* title */}
                 <h2 className='h2 text-accent ml-4 mt-2'>Launches API</h2>
@@ -103,10 +103,10 @@ const DetailedWork = () => {
                 </p>
             </motion.div>
             <motion.div
-              variants={fadeIn('up', 0.2)}
+              variants={fadeIn('up', 0.1)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once: false, amount: 0.3}}
+              viewport={{once: false, amount: 0.2}}
               className='relative overflow-hidden border-2 border-white/50 rounded-x1' id='my-portfolio'>
                 {/* title */}
                 <h2 className='h2 text-accent ml-4 mt-2'>My Portfolio</h2>
@@ -129,10 +129,10 @@ const DetailedWork = () => {
                 </p>
             </motion.div>
             <motion.div
-              variants={fadeIn('up', 0.2)}
+              variants={fadeIn('up', 0.1)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once: false, amount: 0.3}}
+              viewport={{once: false, amount: 0.2}}
               className='relative overflow-hidden border-2 border-white/50 rounded-x1' id='bite-buddy'>
                 {/* title */}
                 <h2 className='h2 text-accent ml-4 mt-2'>Bite Buddy</h2>
@@ -156,10 +156,10 @@ const DetailedWork = () => {
                 </p>
             </motion.div>
             <motion.div
-              variants={fadeIn('up', 0.2)}
+              variants={fadeIn('up', 0.1)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once: false, amount: 0.3}}
+              viewport={{once: false, amount: 0.2}}
               className='relative overflow-hidden border-2 border-white/50 rounded-x1' id='digital-nightmare'>
                 {/* title */}
                 <h2 className='h2 text-accent ml-4 mt-2'>Digital Nightmare</h2>
@@ -183,10 +183,10 @@ const DetailedWork = () => {
                 </p>
             </motion.div>
             <motion.div
-              variants={fadeIn('up', 0.2)}
+              variants={fadeIn('up', 0.1)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once: false, amount: 0.3}}
+              viewport={{once: false, amount: 0.2}}
               className='relative overflow-hidden border-2 border-white/50 rounded-x1' id='iot-smart-home'>
                 {/* title */}
                 <h2 className='h2 text-accent ml-4 mt-2'>IoT Smart Home</h2>

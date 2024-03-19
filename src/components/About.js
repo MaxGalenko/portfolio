@@ -25,10 +25,10 @@ const About = () => {
             */}
           {/* text */}
           <motion.div
-            variants={fadeIn('left', 0.3)}
+            variants={fadeIn('left', 0.2)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{once: false, amount: 0.3}}
+            viewport={{once: false, amount: 0.4}}
             className='flex-1'>
             <h2 className='h2 text-accent'>About me.</h2>
             <h3 className='h3 mb-4'>
