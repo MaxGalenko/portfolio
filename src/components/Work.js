@@ -23,7 +23,7 @@ const Work = () => {
                 Work.
             </h2>
             {/* image */}
-            <Link to='bite-buddy' activeClass='active' smooth={true} spy={true}>
+            <Link to='launches-api' activeClass='active' offset={-100} smooth={true} spy={true}>
               <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1 mt-3'>
                   {/* overlay */}
                   <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
@@ -47,7 +47,7 @@ const Work = () => {
             viewport={{once: false, amount: 0.3}}
             className='flex-1 flex flex-col gap-y-12 mt-2'>
               {/* image */}
-              <Link to='my-portfolio' activeClass='active' smooth={true} spy={true}>
+              <Link to='my-portfolio' activeClass='active' offset={-100} smooth={true} spy={true}>
                 <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
                     {/* overlay */}
                     <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
@@ -64,7 +64,7 @@ const Work = () => {
                 </div>
               </Link>
               {/* image */}
-              <Link to='digital-nightmare' activeClass='active' smooth={true} spy={true}>
+              <Link to='digital-nightmare' activeClass='active' offset={-100} smooth={true} spy={true}>
                 <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
                     {/* overlay */}
                     <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
