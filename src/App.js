@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { lazy } from 'react';
 // components
-import Banner from './components/Banner';
-import Nav from './components/Nav';
-import About from './components/About';
-import Services from './components/Services';
-import Work from './components/Work';
-import DetailedWork from './components/DetailedWork';
-import Contact from './components/Contact';
+const Banner = lazy(() => import('./components/Banner'));
+const Nav = lazy(() => import('./components/Nav'));
+const About = lazy(() => import('./components/About'));
+const Services = lazy(() => import('./components/Services'));
+const Work = lazy(() => import('./components/Work'));
+const DetailedWork = lazy(() => import('./components/DetailedWork'));
+const Contact = lazy(() => import('./components/Contact'));
 
 const App = () => {
   return (

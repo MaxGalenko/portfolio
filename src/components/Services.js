@@ -7,7 +7,7 @@ const services = [
   {
     name: 'Full-Stack Web Development',
     description: 'Expertise in designing and developing dynamic and responsive websites. Proficient use of front-end technologies such as HTML, CSS, JavaScript and React' +
-    'as well as back-end technologies such as PHP.',
+    ' as well as back-end technologies such as PHP.',
     link: 'Learn more'
   },
   {

@@ -143,7 +143,7 @@ const DetailedWork = () => {
                   This was a project for the Application Development course.
                   The intended purpose behind the project was to create an interactive menu application for a restaurant where you would be able to order and pay all without leaving the app.
                   We started by creating the 3 different users and connecting the firebase database. Each user would only be able to access their respective pages where they can do what their role inquires.
-                  The three users are the customer, Admin and the cook. Customers can order and pay for food, Admins can create new admin and cook accounts, and cooks can receive and distribute orders.
+                  The three users are the customer, admin and the cook. Customers can order and pay for food, Admins can create new admin and cook accounts, and cooks can receive and distribute orders.
                   Working on this project helped learn a new language being dart, concepts behind mobile applications and a new database being firebase.
                   Being in a team of 3 was very convenient since we had 3 different types of users which meant that dividing the work between 3 people wasn't an issue and everyone could work asynchronously.
                 </p>
